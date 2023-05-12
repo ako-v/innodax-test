@@ -9,7 +9,7 @@ export interface Pair {
   low24: string;
   vol24: string;
   vol24Base: string;
-  change24Percentage: string;
+  change24Percentage: number;
   lastWeekPrices: number[];
   localeName: string;
   zones: { id: string; label: string; name: string }[];
